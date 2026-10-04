@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+coverage/
+.vscode/
+.idea/
+*.pid
+*.pem
+*.key
+*.crt
+
+# Server backups / temporary patch scripts
+*.bak
+*.bak_*
+server.ts.bak*
+config_appearance_v1.json.bak*
+patch_*.cjs
+speed_*.cjs
+
+# Temporary accidental file
+=
