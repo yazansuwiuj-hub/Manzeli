@@ -21,3 +21,19 @@ speed_*.cjs
 
 # Temporary accidental file
 =
+
+# Server backup files
+*.bak
+*.bak_*
+server.ts.bak*
+config_appearance_v1.json.bak*
+
+# Temporary patch/fix scripts
+fix_*.cjs
+patch_*.cjs
+speed_*.cjs
+optimize_*.cjs
+
+# Temporary files
+=
+test.ts
